@@ -7,6 +7,7 @@ import thunk from 'redux-thunk';
 import rootReducer from './reducers';
 
 import App from './App';
+import './index.css';
 
 const store = configureStore({
     reducer: rootReducer, 
